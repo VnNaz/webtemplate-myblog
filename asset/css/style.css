@@ -154,4 +154,84 @@ body{
 
 #content .task{
     margin-top: 6.4rem;
+    
+}
+#content .post-menu{
+    margin-top: 3.2rem;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+#content .post-menu .menu-title
+{
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 16px;
+}
+#content .menu-items{
+    list-style: none;
+    background-color: white;
+}
+#content .menu-items li{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+#content .menu-items li:hover{
+    background: #ccc;
+}
+#content .menu-items img{
+    display: block;
+    width: 5rem;
+    margin-right: 1.6rem;
+}
+#content .item-info h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+#content .tag-list{
+    margin-top: 3.2rem;
+    background: white;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+#content .tag-list .tag-list__header{
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 16px;
+    background: #f1f1f1;
+}
+#content .tag-list ul{
+    list-style: none;
+    padding: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px 8px;
+}
+#content .tag-list li {
+    background: black;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    padding: 0px 8px;
+}
+#footer{
+    margin-top: 6.4rem;
+    background: #616161;
+    color: white;
+    padding: 3.2rem 1.6rem;
+}
+#footer button.page-move{
+    background: #000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+}
+#footer button.page-move:hover{
+    cursor: pointer;
+    background: #ccc;
+}
+#footer .source{
+    font-weight: 200;
+    margin-top: 3.2rem;
+    font-style: italic;
+    color: #ccc;
 }
